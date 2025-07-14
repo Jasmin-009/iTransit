@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.itransit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- LOGIN REGISTER -->
+        <activity android:name=".loginActivity" />
+        <activity android:name=".registerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- MAIN ACTIVITY -->
+        <activity android:name=".MainActivity" /> <!-- REST OF THE ACTIVITY -->
+        <activity
+            android:name=".Search"
+            android:parentActivityName=".eTicketStopActivity" />
+        <activity
+            android:name=".eTicketStopActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".BusNumberSearchActivity" />
+        <activity
+            android:name=".busNoInfoActivity"
+            android:parentActivityName=".Search" />
+        <activity android:name=".bookTicketActivity"
+            android:parentActivityName=".busNoInfoActivity"/>
+
+    </application>
+
+</manifest>

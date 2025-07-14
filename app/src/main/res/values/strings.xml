@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">I Transit</string>
+    <string name="already_have_account_sign_in_here">Already have Account ?? Sign In here</string>
+    <string name="don_t_have_account_sign_up_here">Don\'t have Account ?? Sign Up here</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="forgot_password">Forgot Password ??</string>
+    <string name="comfort">Comfort</string>
+    <string name="finance">Finance</string>
+    <string name="goal">Goal</string>
+    <string name="health">Health</string>
+    <string name="search_bus_route_number">Search Bus Route Number</string>
+</resources>
