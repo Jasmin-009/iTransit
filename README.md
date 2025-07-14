@@ -36,7 +36,7 @@
 
 ### Backend (Computer Vision Server)
 1. Install Python and required packages
-```bash
+bash
 pip install opencv-python firebase-admin
 ---
 
